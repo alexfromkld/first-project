@@ -93,10 +93,17 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .intro {
     padding: 0 20px 38px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .intro__heading {
     display: flex;
+    justify-content: space-between;
+    gap: 22px;
+    color: #CCC;
+    font-size: 16px;
 }
 
 .intro__title {
@@ -116,12 +123,57 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     line-height: 1.2;
 }
 
+.intro__main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-size: 16px;
+    color: #F5F5F5;
+    line-height: 21.6px;
+}
+
 .reasons {
     padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.content-section__subtitle {
+    font-family: 'EB Garamond', serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.15;
+}
+
+.content-section__introduction {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.35;
+}
+
+.content-section__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 0 0 16px;
+    line-height: 1.35;
+
+}
+
+.content-section__list-accent {
+    color: #131313;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.35;
 }
 
 .how-to {
     padding: 40px 20px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
 }
 
 .footer {
