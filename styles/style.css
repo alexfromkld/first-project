@@ -1,243 +1,251 @@
 body {
-    margin: 0;
-    font-family: Inter, sans-serif;
-    font-weight: 400;
-    background-color: #1e1e1e;
+  margin: 0;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  background-color: #1e1e1e;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
 }
 
 .content-section {
-    box-sizing: border-box;
-    width: 360px;
-    min-height: 100px;
-    margin: auto;
+  box-sizing: border-box;
+  width: 360px;
+  min-height: 100px;
+  margin: auto;
 }
 
 .content-section_theme_dark {
-    color: #fff;
-    background-color: #131313;
+  color: #fff;
+  background-color: #131313;
 }
 
 .content-section_theme_bright {
-    color: #131313;
-    background-color: #fee42a;
+  color: #131313;
+  background-color: #fee42a;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 24px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 24px 20px;
 }
 
 .header__logo {
-    display: block;
-    width: 78px;
+  display: block;
+  width: 78px;
 }
 
 .header__logo-image {
-    width: 100%;
+  width: 100%;
 }
 
 .header__menu-list {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    list-style: none;
-
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
 }
 
 .header__menu-link {
-    color: #F5F5F5;
-    font-size: 16px;
-    line-height: 19.2px;
+  color: #f5f5f5;
+  font-size: 16px;
+  line-height: 19.2px;
 }
 
 .header__menu-item_active .header__menu-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .cover {
-    min-height: 258px;
-    padding: 7px 24px 32px 20px;
-    background-image: url(../images/cover.svg);
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: 95% auto;
+  min-height: 258px;
+  padding: 7px 24px 32px 20px;
+  background-image: url(../images/cover.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 95% auto;
 }
 
 .cover__title {
-    width: 100%;
-    color: #fff;
-    font-family: 'EB Garamond', serif;
-    font-weight: 400;
-    font-size: 72px;
-    line-height: 1;
+  width: 100%;
+  color: #fff;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1;
 }
 
 .accent-span {
-    display: block;
+  display: block;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .text-right {
-    text-align: right;
+  text-align: right;
 }
 
 .intro {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    padding: 0 20px 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0 20px 38px;
 }
 
 .intro__heading {
-    display: flex;
-    justify-content: space-between;
-    gap: 22px;
-    color: #CCC;
-    font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+  color: #ccc;
+  font-size: 16px;
 }
 
 .intro__title {
-    color: #CCC;
-    font-family: Inter, sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.2;
+  color: #ccc;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
 }
 
 .intro__date {
-    color: #CCC;
-    font-family: Inter, sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.2;
-    white-space: nowrap;
+  color: #ccc;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  white-space: nowrap;
 }
 
 .intro__main-text {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    color: #F5F5F5;
-    font-size: 16px;
-    line-height: 21.6px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: #f5f5f5;
+  font-size: 16px;
+  line-height: 21.6px;
 }
 
 .reasons {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 40px 20px;
 }
 
 .content-section__subtitle {
-    font-family: 'EB Garamond', serif;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 1.15;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.15;
 }
 
 .content-section__introduction {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.35;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.35;
 }
 
 .content-section__list {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding: 0 0 0 16px;
-    line-height: 1.35;
-
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 0 0 16px;
+  line-height: 1.35;
 }
 
 .content-section__list-accent {
-    color: #131313;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.35;
+  color: #131313;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.35;
 }
 
 .how-to {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    padding: 40px 20px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 40px 20px 60px;
 }
 
 .cards-list {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  list-style: none;
 }
 
-.card, .card_text-only {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    border-radius: 30px;
-    padding: 20px;
+.card,
+.card_text-only {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 30px;
+  padding: 20px;
 }
 
 .card_theme_dark {
-    color: #F5F5F5;
-    background-color: #343434;
+  color: #f5f5f5;
+  background-color: #343434;
 }
 
 .card_theme_bright {
-    color: #131313;
-    background-color: #FEE42A;
+  color: #131313;
+  background-color: #fee42a;
 }
 
 .card__content {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .card__author-photo {
-    width: 100px;
+  width: 100px;
 }
 
 .card__author-name {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .card__title {
-    font-family: 'EB Garamond', serif;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 1.35;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.35;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 1px solid #fee42a;
-    padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #fee42a;
+  padding: 20px;
 }
 
 .footer__links {
-    display: flex;
-    gap: 16px;
-    list-style: none;
+  display: flex;
+  gap: 16px;
+  list-style: none;
 }
 
 .footer__links a {
-    color: #F5F5F5;
-    font-size: 14px;
-    line-height: 1.25;
-    text-decoration: none;
+  color: #f5f5f5;
+  font-size: 14px;
+  line-height: 1.25;
+  text-decoration: none;
 }
